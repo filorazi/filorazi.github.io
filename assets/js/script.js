@@ -157,3 +157,8 @@ for (let i = 0; i < navigationLinks.length; i++) {
 
   });
 }
+
+
+$(".container").on('click', function() {
+  $(this).children(".overlay").css('height', '100%');
+});
